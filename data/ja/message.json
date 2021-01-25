@@ -2,7 +2,7 @@
   "validation": {
     "valueMissing": "このフィールドを入力してください。",
     "typeMismatch": {
-      "email": "メールアドレスを入力してください。",
+      "email": "正しいメールアドレスを入力してください。",
       "url": "URLを入力してください。"
     },
     "badInput": "有効な値を入力してください。",
