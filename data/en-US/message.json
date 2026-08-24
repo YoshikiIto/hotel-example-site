@@ -13,7 +13,7 @@
     "rangeUnderflow": "Value must be greater than or equal to {}.",
     "stepMismatch": "Please enter a valid value.",
     "shoudBeNextDay": "Please enter a date after tomorrow.",
-    "shouldBeFourMonth": "Please enter a date within 4 months.",
+    "shouldBeTwoMonth": "Please enter a date within 2 months.",
     "mailOrAddressMismatch": "Email or password is invalid.",
     "existsMail": "Email has already been taken.",
     "passwordUnmatch": "Password doesn't match.",

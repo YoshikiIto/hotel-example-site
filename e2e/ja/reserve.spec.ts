@@ -214,7 +214,7 @@ test.describe("宿泊予約", () => {
     await reservePage.getByLabel("氏名 必須").fill("テスト太郎");
 
     await expect(reservePage.locator("#date ~ .invalid-feedback")).toHaveText(
-      "4ヶ月以内の日付を入力してください。",
+      "2ヶ月以内の日付を入力してください。",
     );
     await expect(reservePage.locator("#term ~ .invalid-feedback")).toHaveText(
       "9以下の値を入力してください。",

@@ -65,12 +65,12 @@ export function validateDateInput(date) {
     return t("validation.badInput");
   } else {
     const now = new Date();
-    const after120 = new Date();
-    after120.setDate(after120.getDate() + 120);
+    const after60 = new Date();
+    after60.setDate(after60.getDate() + 60);
     if (date.getTime() < now.getTime()) {
       return t("validation.shoudBeNextDay");
-    } else if (date.getTime() > after120.getTime()) {
-      return t("validation.shouldBeFourMonth");
+    } else if (date.getTime() > after60.getTime()) {
+      return t("validation.shouldBeTwoMonth");
     }
   }
 }

@@ -93,7 +93,7 @@ $(function () {
   // Setup datepicker
   $("#date").datepicker({
     showButtonPanel: true,
-    maxDate: 120,
+    maxDate: 60,
     minDate: 1,
     onSelect: function () {
       $(this).trigger("change");

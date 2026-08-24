@@ -13,7 +13,7 @@
     "rangeUnderflow": "{}以上の値を入力してください。",
     "stepMismatch": "有効な値を入力してください。",
     "shoudBeNextDay": "翌日以降の日付を入力してください。",
-    "shouldBeFourMonth": "4ヶ月以内の日付を入力してください。",
+    "shouldBeTwoMonth": "2ヶ月以内の日付を入力してください。",
     "mailOrAddressMismatch": "メールアドレスまたはパスワードが違います。",
     "existsMail": "このメールアドレスはすでに登録済みです。",
     "passwordUnmatch": "入力されたパスワードと一致しません。",
