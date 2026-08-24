@@ -25,7 +25,7 @@ $(function () {
   const planId = parseInt(params[1], 10);
 
   // fetch selected plan data
-  const url = location.origin + "/data/" + getLocale() + "/plan_data.json?" + Date.now();
+  const url = "../data/" + getLocale() + "/plan_data.json?" + Date.now();
   $.getJSON(url).done(function (data) {
     let plan = null;
     for (let i = 0; i < data.length; i++) {
