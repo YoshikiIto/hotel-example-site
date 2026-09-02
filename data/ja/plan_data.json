@@ -6,7 +6,7 @@
     "minHeadCount": 1,
     "maxHeadCount": 9,
     "minTerm": 1,
-    "maxTerm": 9,
+    "maxTerm": 5,
     "room": "スタンダードツイン",
     "roomPage": "standard-twin.html",
     "only": null
